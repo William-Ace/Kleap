@@ -7,8 +7,8 @@ import { withSuspense } from "../hocs";
 const Welcome = withSuspense(lazy(() => import("Pages/Welcome")));
 
 export const router = createBrowserRouter([
-  {
-    path: appLinks.welcome,
-    element: <Welcome />,
-  },
+	{
+		path: appLinks.welcome,
+		element: <Welcome />,
+	},
 ]);
